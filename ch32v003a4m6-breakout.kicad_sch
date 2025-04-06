@@ -10,196 +10,16 @@
 		(rev "1.0")
 	)
 	(lib_symbols
-		(symbol "Capacitor:CL10A105KA8NNNC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CL10A105KA8NNNC"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 8.89 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ceramic Capacitor, 1uF, 0603, 25V, ±10%, X5R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Capacitance" "1uF"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "Samsung"
-				(at 8.89 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 8.89 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Temperature Coefficient" "X5R"
-				(at 8.89 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL10A105KA8NNNC_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL10A105KA8NNNC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x08"
+		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -207,15 +27,15 @@
 				)
 			)
 			(property "Value" "Conn_01x08"
-				(at 0 -20.828 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader:PinHeader_1x08_P2.54mm_Vertical"
-				(at 0 -24.13 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -224,7 +44,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -28.956 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -233,7 +53,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 -26.416 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -261,14 +81,47 @@
 			)
 			(symbol "Conn_01x08_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -19.05)
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -326,41 +179,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -17.653)
-					(end 0 -17.907)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -378,7 +198,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -396,7 +216,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -414,7 +234,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -432,7 +252,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -450,7 +270,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -468,7 +288,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -486,7 +306,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -506,12 +326,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_WCH:CH32V003A4M6"
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 13.97 0)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -519,8 +345,140 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CH32V003A4M6"
-				(at 7.62 13.97 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MCU_WCH_CH32V0:CH32V003AxMx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CH32V003AxMx"
+				(at 7.62 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -528,7 +486,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
-				(at 0 -33.02 0)
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -537,7 +495,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.wch-ic.com/products/CH32V003.html"
-				(at 0 -30.48 0)
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -546,16 +504,7 @@
 				)
 			)
 			(property "Description" "CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios."
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "WCH"
-				(at 0 -25.4 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -581,7 +530,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CH32V003A4M6_1_1"
+			(symbol "CH32V003AxMx_1_1"
 				(rectangle
 					(start -7.62 12.7)
 					(end 7.62 -12.7)
@@ -2010,6 +1959,204 @@
 		(uuid "fb91755e-8791-4ae0-a0c0-0b0d78031ee1")
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 83.82 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "226bceaa-c4b4-4de4-82e4-d4e6d5ffb331")
+		(property "Reference" "J2"
+			(at 83.82 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 83.82 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69f5efd5-8378-4312-acc8-7a1f19b4bf6b")
+		)
+		(pin "6"
+			(uuid "fce56a17-c33e-4dcd-8105-e954a69b6c7c")
+		)
+		(pin "7"
+			(uuid "cc243074-aa91-4a23-a21d-0ac743624b2e")
+		)
+		(pin "4"
+			(uuid "c549d48c-e2dc-461c-8ca6-c3dcccc957ee")
+		)
+		(pin "2"
+			(uuid "e1426941-848e-4b6f-8321-709e926531fa")
+		)
+		(pin "8"
+			(uuid "b6e02797-2ae9-4e85-bc9e-a275e0c189cb")
+		)
+		(pin "5"
+			(uuid "f0dc2636-5bfb-45de-b9b5-07df558f30e0")
+		)
+		(pin "3"
+			(uuid "e2044b32-2b44-4c47-8ed3-77c9a6d7c523")
+		)
+		(instances
+			(project ""
+				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_WCH_CH32V0:CH32V003AxMx")
+		(at 146.05 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2687fb6f-b05a-42b6-97aa-926279982040")
+		(property "Reference" "U1"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH32V003A4M6"
+			(at 147.828 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.wch-ic.com/products/CH32V003.html"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios."
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "16"
+			(uuid "2712a968-e1ba-42b5-ace8-71d72e0a4e0c")
+		)
+		(pin "7"
+			(uuid "c0cd479e-e606-4aac-bb03-545955a32c45")
+		)
+		(pin "12"
+			(uuid "e940accf-4dd0-4525-bc53-acea3899b0ee")
+		)
+		(pin "3"
+			(uuid "b67594df-fc9c-4ef1-aa60-7476b40f577c")
+		)
+		(pin "9"
+			(uuid "70c62f89-09a9-47b0-bebb-beef1ad0fc10")
+		)
+		(pin "14"
+			(uuid "716e27ff-ccd4-40a6-8880-db6254b75d6f")
+		)
+		(pin "8"
+			(uuid "02f8986d-2304-4780-a1ba-330b40bbed04")
+		)
+		(pin "15"
+			(uuid "fbe03b4c-6694-48b7-8112-a07295521714")
+		)
+		(pin "10"
+			(uuid "f56354bd-bfcd-44be-b455-e49979daf8df")
+		)
+		(pin "1"
+			(uuid "eab59a0d-ce17-4f52-9063-75716eacf4a9")
+		)
+		(pin "2"
+			(uuid "7e70661f-bb47-44d6-9c64-812cfe377349")
+		)
+		(pin "5"
+			(uuid "57b700cd-b09a-442d-8ef6-47b08c049e80")
+		)
+		(pin "4"
+			(uuid "ebca50ea-7291-4f5a-8518-aeacbe43d74e")
+		)
+		(pin "6"
+			(uuid "e2716a0d-5f95-4c8f-9cfb-ee2ffd1a396b")
+		)
+		(pin "11"
+			(uuid "8e18f20e-11b1-411d-83b3-f2cd082da6f4")
+		)
+		(pin "13"
+			(uuid "fbb137c8-22c3-4dd9-8ab8-e9c1a0fdf1bd")
+		)
+		(instances
+			(project ""
+				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 149.86 64.77 270)
 		(unit 1)
@@ -2135,6 +2282,73 @@
 			(project "ch32v003a4m6-breakout"
 				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
 					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8630a48c-68df-4128-a637-7a204fc705d7")
+		(property "Reference" "C1"
+			(at 139.446 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 132.08 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 139.7 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0c5943-107c-4e40-94b9-08263ff6170c")
+		)
+		(pin "2"
+			(uuid "2475f361-e190-467d-a126-ffd44d427399")
+		)
+		(instances
+			(project ""
+				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2274,93 +2488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08")
-		(at 83.82 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b4b6ed3-1e97-4dc2-a049-7f3004fb8cd4")
-		(property "Reference" "J1"
-			(at 83.82 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 83.82 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader:PinHeader_1x08_P2.54mm_Vertical"
-			(at 83.82 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 102.616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4935cfc6-d800-42c8-b2a4-1a9668ad9a18")
-		)
-		(pin "1"
-			(uuid "4683ae28-c1c0-4d2d-a5d8-f3cb4380b91e")
-		)
-		(pin "5"
-			(uuid "f3eb2993-d148-4cbb-8a34-56571c5d616e")
-		)
-		(pin "3"
-			(uuid "62792113-981e-45ad-9465-f7b7b756fdd2")
-		)
-		(pin "8"
-			(uuid "f882c453-9fdf-4f43-94dd-7dcbf4bf3d37")
-		)
-		(pin "6"
-			(uuid "9841655d-ad42-4767-9024-d104b7085c37")
-		)
-		(pin "4"
-			(uuid "7e070995-b4c7-4281-9d08-3f8652ada5a8")
-		)
-		(pin "7"
-			(uuid "3587e08b-7e11-423e-b76c-5f896ae03cea")
-		)
-		(instances
-			(project ""
-				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 101.6 101.6 270)
 		(unit 1)
@@ -2428,6 +2555,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 83.82 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2c4748c-a82b-41f8-8ddd-f11f40386f76")
+		(property "Reference" "J1"
+			(at 83.82 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 83.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3f69c46b-1ef6-4dcc-95f3-646a601f6eb2")
+		)
+		(pin "2"
+			(uuid "1a7f7495-693d-4bab-9d07-1fed3531e64f")
+		)
+		(pin "1"
+			(uuid "8f5d17be-878e-4df4-9fc1-6409f0c79ada")
+		)
+		(pin "4"
+			(uuid "4eadc258-ca9c-4cc4-a075-40d3587afb74")
+		)
+		(pin "5"
+			(uuid "7ea60a1e-5ec6-4ae5-9283-75ca09a97db0")
+		)
+		(pin "3"
+			(uuid "14d1e311-e087-4e94-80d3-577ab720dcae")
+		)
+		(pin "7"
+			(uuid "0fcd1c84-91d2-4b11-ba59-0620270f0d3b")
+		)
+		(pin "8"
+			(uuid "9c071387-22a4-4dfa-ac3e-5f14a14b6017")
+		)
+		(instances
+			(project ""
+				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 104.14 90)
 		(unit 1)
@@ -2489,331 +2703,6 @@
 			(project "ch32v003a4m6-breakout"
 				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
 					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_WCH:CH32V003A4M6")
-		(at 146.05 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e39e020b-99ef-4b04-a4dd-43e7e6c70a03")
-		(property "Reference" "U1"
-			(at 138.43 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CH32V003A4M6"
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.wch-ic.com/products/CH32V003.html"
-			(at 146.05 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios."
-			(at 146.05 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "WCH"
-			(at 146.05 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "9c87a23c-ae08-420d-8a02-fa4cd2032e44")
-		)
-		(pin "14"
-			(uuid "07fef7ef-6fc3-426b-9d57-55ca19556e54")
-		)
-		(pin "4"
-			(uuid "88526c3d-558d-4124-aa07-c0ad7c75eb0d")
-		)
-		(pin "16"
-			(uuid "6ddcd100-c91c-4504-b74f-e0ecf0c6ee27")
-		)
-		(pin "10"
-			(uuid "622a027d-b92a-4df7-b772-c32ae5ccf279")
-		)
-		(pin "5"
-			(uuid "048f3efa-99c6-4acf-97e9-f9171288278b")
-		)
-		(pin "1"
-			(uuid "b8accc6b-1349-4f61-a42d-d316e1d3a060")
-		)
-		(pin "15"
-			(uuid "c57999a9-bf71-4b9b-97ea-9b196c6e83b3")
-		)
-		(pin "6"
-			(uuid "fcf63cf6-67dc-4077-8354-a0ac61b372aa")
-		)
-		(pin "3"
-			(uuid "50906b08-f5fe-4995-a2d2-fe776e2a58a0")
-		)
-		(pin "7"
-			(uuid "971085fb-7cbc-46a9-a14d-527f686d50cf")
-		)
-		(pin "12"
-			(uuid "fbbb7b10-d7d0-46f2-ae02-a9c04ee6fc1f")
-		)
-		(pin "9"
-			(uuid "9c6d4a60-6512-46d3-8d9a-32aa05b29599")
-		)
-		(pin "2"
-			(uuid "99b33ed4-95d6-481c-afc4-0da14f031b5e")
-		)
-		(pin "8"
-			(uuid "985aba1f-2968-40cc-b5b7-ba7c758b1376")
-		)
-		(pin "13"
-			(uuid "9ed2a2bc-5d74-477b-aa38-112da0b4e823")
-		)
-		(instances
-			(project ""
-				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08")
-		(at 83.82 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed41bc4c-139b-4f2c-8459-e5eff5606127")
-		(property "Reference" "J2"
-			(at 83.82 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 83.82 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader:PinHeader_1x08_P2.54mm_Vertical"
-			(at 83.82 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 130.556 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4935cfc6-d800-42c8-b2a4-1a9668ad9a19")
-		)
-		(pin "1"
-			(uuid "4683ae28-c1c0-4d2d-a5d8-f3cb4380b91f")
-		)
-		(pin "5"
-			(uuid "f3eb2993-d148-4cbb-8a34-56571c5d616f")
-		)
-		(pin "3"
-			(uuid "62792113-981e-45ad-9465-f7b7b756fdd3")
-		)
-		(pin "8"
-			(uuid "f882c453-9fdf-4f43-94dd-7dcbf4bf3d38")
-		)
-		(pin "6"
-			(uuid "9841655d-ad42-4767-9024-d104b7085c38")
-		)
-		(pin "4"
-			(uuid "7e070995-b4c7-4281-9d08-3f8652ada5a9")
-		)
-		(pin "7"
-			(uuid "3587e08b-7e11-423e-b76c-5f896ae03ceb")
-		)
-		(instances
-			(project ""
-				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor:CL10A105KA8NNNC")
-		(at 135.89 64.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef2119a6-0d4f-4a92-87df-b96a1780159a")
-		(property "Reference" "C1"
-			(at 137.668 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CL10A105KA8NNNC"
-			(at 147.32 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
-			(at 123.19 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceramic Capacitor, 1uF, 0603, 25V, ±10%, X5R"
-			(at 135.89 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacitance" "1uF"
-			(at 130.556 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 140.97 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 133.35 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "X5R"
-			(at 130.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "466e432a-86e6-4cbe-89c2-ec61c9e6ae5b")
-		)
-		(pin "2"
-			(uuid "0923836b-fd7f-411b-8999-3b4e4a32f1d3")
-		)
-		(instances
-			(project ""
-				(path "/02284c6c-81b7-4508-9d5d-f6446d07ae93"
-					(reference "C1")
 					(unit 1)
 				)
 			)
