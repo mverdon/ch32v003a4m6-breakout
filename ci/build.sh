@@ -12,7 +12,8 @@ mkdir -p ${OUTPUT_DIR}/bom \
     ${OUTPUT_DIR}/prints \
     ${OUTPUT_DIR}/gerber \
     ${OUTPUT_DIR}/pos \
-    ${OUTPUT_DIR}/3d
+    ${OUTPUT_DIR}/3d \
+    ${OUTPUT_DIR}/jlcpcb
 # Generate schematics
 kicad-cli sch export pdf \
     -o "${OUTPUT_DIR}/prints/${PROJECT}_rev${REVISION}_schematics.pdf" \
@@ -54,9 +55,15 @@ kicad-cli pcb export step \
     --subst-models \
     -o "${OUTPUT_DIR}/3d/${PROJECT}_rev${REVISION}_3d.step" \
     ${PCB_FILE}
-# Zip everything
+# Prepare all the files for a JLCPCB order
+cp ${OUTPUT_DIR}/pos/${PROJECT}_rev${REVISION}_cpl.csv ${OUTPUT_DIR}/jlcpcb/
+cp ${OUTPUT_DIR}/bom/${PROJECT}_rev${REVISION}_bom.csv ${OUTPUT_DIR}/jlcpcb/
+OLD_HEADER="Ref,Val,Package,PosX,PosY,Rot,Side"
+NEW_HEADER="Designator,Val,Package,Mid X,Mid Y,Rotation,Layer"
+sed -i -e "s/$OLD_HEADER/$NEW_HEADER/g" ${OUTPUT_DIR}/jlcpcb/${PROJECT}_rev${REVISION}_cpl.csv
 cd outputs/${PROJECT}_rev${REVISION}/gerber
-zip jlcpcb_gerber.zip *
+zip ../jlcpcb/${PROJECT}_rev${REVISION}_gerber.zip *
 cd ../..
+# Zip everything
 zip -r ${PROJECT}_v${REVISION}.zip ${PROJECT}_rev${REVISION}
 rm -rf ${PROJECT}_rev${REVISION}
